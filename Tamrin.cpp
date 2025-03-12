@@ -65,9 +65,9 @@ public:
 
 int main() {
     // ایجاد اشیاء از کلاس‌ها
-    Teacher teacher1("Mr. Smith", 40);
-    Student student1("Alice", 15, 9);
-    School school1("Green Valley High School");
+    Teacher teacher1("Mr. Falah", 40);
+    Student student1("Aria", 15, 9);
+    School school1("Salam Dibaji");
 
     // نمایش اطلاعات مدرسه
     school1.displaySchoolName();
