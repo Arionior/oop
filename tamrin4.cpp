@@ -8,7 +8,7 @@ public:
         cout << "Vehicle makes a sound!" << endl;
     }
 
-    // دکترین تخریب‌کننده virtual
+    // 
     virtual ~Vehicle() {}
 };
 
@@ -37,15 +37,13 @@ public:
 };
 
 int main() {
-    // ایجاد یک آرایه از اشاره‌گرهای Vehicle
+    // 
     Vehicle* vehicles[3];
 
-    // ساخت انواع مختلف وسایل نقلیه
     vehicles[0] = new Car();          // وسیله نقلیه از نوع Car
     vehicles[1] = new Motorcycle();   // وسیله نقلیه از نوع Motorcycle
     vehicles[2] = new Bicycle();      // وسیله نقلیه از نوع Bicycle
 
-    // فراخوانی متد makeSound برای هر وسیله نقلیه
     for (int i = 0; i < 3; ++i) {
         vehicles[i]->makeSound();  // بر اساس نوع واقعی شیء، صدای مربوط به آن وسیله نقلیه چاپ می‌شود
     }
